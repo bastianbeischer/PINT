@@ -16,7 +16,8 @@ from pint.models.timing_model import Component, TimingModel, MissingParameter, i
 default_models = ["StandardTimingModel",]
 DEFAULT_ORDER = ['astrometry', 'jump_delay', 'solar_system_shapiro',
                  'dispersion_constant', 'dispersion_dmx', 'pulsar_system',
-                 'frequency_dependent', 'spindown', 'phase_jump', 'wave']
+                 'frequency_dependent', 'spindown', 'phase_jump', 'wave',
+                 'ifunc']
 
 
 class UnknownBinaryModel(ValueError):

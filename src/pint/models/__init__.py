@@ -19,6 +19,7 @@ from pint.models.solar_system_shapiro import SolarSystemShapiro
 from pint.models.noise_model import ScaleToaError, EcorrNoise, PLRedNoise
 from pint.models.model_builder import get_model
 from pint.models.wave import Wave
+from pint.models.ifunc import IFunc
 
 # Define a standard basic model
 StandardTimingModel = TimingModel("StandardTimingModel",
